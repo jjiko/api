@@ -1,6 +1,6 @@
 {
-  "name": "jjiko/gaming",
-  "description": "Admin interface",
+  "name": "jjiko/api",
+  "description": "Public REST API",
   "license": "MIT",
   "authors": [
     {
