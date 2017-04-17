@@ -3,7 +3,7 @@
 trait CacheableApiTrait {
   public static function readCache($key)
   {
-    return ApiCache::firstOrCreate(['key' => $key]);
+    return ApiCache::firstOrNew(['key' => $key]);
   }
 
   public function cacheIsFresh($cache, $expires=3600)
