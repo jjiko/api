@@ -7,7 +7,7 @@ class ApiCache extends Model
   protected $table = 'site_cache';
   protected $fillable = ['category', 'key', 'data'];
   protected $casts = [
-    'data' => 'json'
+    'data' => 'array'
   ];
 
   public function __construct(array $attributes = [])
